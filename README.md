@@ -1,5 +1,7 @@
 # Maw3id - HealthCare Management System
 
+![Maw3id Logo](public/assets/icons/LOGO.svg)
+
 Maw3id is a healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors. It also features administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications. This project is built with modern technologies, ensuring a responsive and efficient experience across devices.
 
 ## 🖥️ Tech Stack
