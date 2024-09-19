@@ -121,7 +121,7 @@ const RenderField = ({ field, props }: { field: any; props: CustomProps }) => {
                 <SelectValue placeholder={props.placeholder} />
               </SelectTrigger>
             </FormControl>
-            <SelectContent className="shad-select-content">
+            <SelectContent className="shad-select-content ">
               {props.children}
             </SelectContent>
           </Select>
