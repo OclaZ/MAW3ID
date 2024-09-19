@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a >
-      <img src="public/assets/APP BANNER.png" alt="Project Banner">
+      <img src="public/assets/APP BANNER.png" alt="Project Banner"> 
     </a>
   <br />
 
