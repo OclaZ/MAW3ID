@@ -3,24 +3,13 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import { Button } from "@/components/ui/button";
 import { Form } from "@/components/ui/form";
-import { CustomFormField } from "../CustomFormField";
 import SubmitButton from "../SubmitButton";
 import { useState } from "react";
 import { UserFormValidation } from "@/lib/validation";
 import { useRouter } from "next/navigation"; // Fix here
 import { createUser } from "@/lib/actions/patient.actions";
-
-export enum FormFieldType {
-  INPUT = "input",
-  CHECKBOX = "checkbox",
-  TEXTAREA = "textarea",
-  PHONE_INPUT = "phoneinput",
-  DATE_PICKER = "datePicker",
-  SELECT = "select",
-  SKELETON = "skeleton",
-}
+import { CustomFormField, FormFieldType } from "../CustomFormField";
 
 const PatientForm = () => {
   const router = useRouter(); // Fix here
